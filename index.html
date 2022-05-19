@@ -1,19 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Lemonade Illustration</title>
+  <title>Lemonade Illustration</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
     <!-- links to style sheets, google fonts, etc. go here -->
-<!-- debugging start -->
+    <link href="css/styles.css" type="text/css" rel="stylesheet" />
+    <style>
+
+    </style>
+<!-- debugging start
     <style>
       body div { border: 1px solid red; }
     </style>
-    <!-- debugging end -->
 
-  </head>
+   debugging end -->
+    </head>
   <body>
-    <!-- nav bar start -->
+<!--
+    <div class="sidebar">
+      <div class="logo"></div>
+      <nav>
+        <a href="" class="nav-item active">Home</a>
+        <a href="" class="nav-item">About</a>
+        <a href="" class="nav-item">Contact</a>
+        <a href="" class="nav-item">News</a>
+      </nav>
+    </div>
+ -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Lemonade Illustration Agency </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">home</a>
+                </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">about</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">news</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+  <!-- old nav bar start
     <div class="container">
       <div class="row">
         <div class="col-sm border">
@@ -42,62 +86,301 @@
         </div>
       </div>
     </div>
-    <!-- nav bar end -->
+ old nav bar end -->
 
     <!-- welcome content start -->
     <div class="container">
       <div class="row">
-        <div class="col border">
-          text box
+        <div class="col">
+          <h1> Welcome to <b>Lemonade!</b></h1>
+          <p> We have been a leader within the Global Creative industry for over 25 years.
+              <br />
+              <br />
+              From our five offices, our Agency staff pride themselves on working with clients across the globe located in all time zones.
+              In these adverse times we are facing, we continue to be on hand to assist our customers by working 7 days a week, 52 weeks a year, as we always have!
+
+          </p>
         </div>
-      <div class="col border">
+      <div class="col">
         <div class="row">
-          <div class="col border">
-            image
+          <div class="col">
+            <figure class="figure">
+                <img src="images/advertising/cropped/Zazo_Aguiar-cropped.jpg" class="figure-img rounded" alt="Zazo Aguiar">
+                <figcaption class="figure-caption text-end">Zazo Aguiar</figcaption>
+            </figure>
           </div>
         </div>
-        <div class="col border">
-          <div class="row">
-            <div class="col border">
-              caption
-            </div>
-          </div>
-      </div>
     </div>
 
-    <!-- welcome content end -->
+<!-- welcome content end -->
 
 <!-- browse categories start -->
+          <!-- <div class="container">
+            <div class="row">
+                    <div class="col">
+                      <h2>Browse portfolios by category</h2>
+                    </div>
+                  <div class="container">
+                      <div class="row">
+                        <div class="col-1">
+                          <h3> all </h3>
+                        </div>
+                        <div class="col-3 category">
+                          <h3> advertising and design</h3>
+                        </div>
+                        <div class="col-2">
+                          <h3>  animation</h3>
+                        </div>
+                        <div class="col-3">
+                          <h3> concept art</h3>
+                        </div>
+                        <div class="col-3">
+                          <h3> children's illustration </h3>
+                        </div>
+                      </div>
+                  </div>
+                   -->
+
+    <div class="container">
+                     <div class="row">
+                             <div class="col">
+                               <h2>Browse portfolios by category</h2>
+                             </div>
+                           <div class="container">
+                             <h3 style="font-size: 2vw;">
+                               <div class="row">
+                                 <div class="col-1">
+                                   all
+                                 </div>
+                                 <div class="col-3 category">
+                                   advertising and design
+                                 </div>
+                                 <div class="col-2">
+                                   animation
+                                 </div>
+                                 <div class="col-3">
+                                   concept art
+                                 </div>
+                                 <div class="col-3">
+                                   children's illustration
+                                 </div>
+                               </div>
+            <div class="container">
+                <h4 style="font-size:1.5vw;">
+                  <div class="row">
+                      <div class="col-2">
+                          sort by
+                        </div>
+                          <div class="col-2">
+                          A to Z
+                          </div>
+                            <div class="col-2">
+                              Z to A
+                            </div>
+                            <div class="col-3">
+                              newest
+                            </div>
+                            <div class="col-3">
+                              oldest
+                            </div>
+                    </div>
+                  </h4>
+                  </div>
+              </div>
+            </div>
+<!-- browse categories end -->
+
+<!-- artist profiles start -->
 <div class="container">
   <div class="row">
-    <div class="col border">
-      browse portfolios by category
+    <div class="col-4">
+      <img src="images/advertising/cropped/profile_Ayuso-Sofia.jpg" class="img-fluid rounded" alt="Sofia Ayuso"/>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-2 border">
-          all
-        </div>
-        <div class="col-2 border">
-          advertising and design
-        </div>  <div class="col-2 border">
-            animation
-          </div>  <div class="col-2 border">
-              concept art
-            </div>  <div class="col-2 border">
-                children's illustration
-              </div>
+    <div class="col-4">
+      <img src="images/advertising/cropped/profile_Baldi-Caterina-Advert.jpg" class="img-fluid rounded" alt="Caterina Baldi"/>
+    </div>
+    <div class="col-4">
+      <img src="images/advertising/cropped/profile_Banaji-Lucy.jpg" class="img-fluid rounded" alt="Lucy Banaji"/>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-4 text-center">
+      Sofia Ayuso
+    </div>
+    <div class="col-4 text-center">
+      Caterina Baldi
+    </div>
+    <div class="col-4 text-center">
+      Lucy Banaji
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-4">
+      <img src="images/advertising/cropped/profile_Borsboom-Tjarda-Advert.jpg" class="img-fluid rounded" alt="Tjarda Borsboom"/>
+    </div>
+    <div class="col-4">
+      <img src="images/advertising/cropped/profile_Borsi-Giulia.jpg" class="img-fluid rounded" alt="Giulia Borsi"/>
+    </div>
+    <div class="col-4">
+      <img src="images/advertising/cropped/profile_Fedorova-Veronika.jpg" class="img-fluid rounded" alt="Veronika Fedorova"/>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-4 text-center">
+      Tjarda Borsboom
+    </div>
+    <div class="col-4 text-center">
+      Giulia Borsi
+    </div>
+    <div class="col-4 text-center">
+      Veronika Fedorova
+    </div>
+    <div class="col">
+    <a href="https://browse.html"class="stretched-link">See more on the next page...</a>
+    </div>
   </div>
 </div>
 
-<!-- browse categories end -->
+<!-- artist profiles end -->
 
 <!-- artist of the week start -->
+<!--
+<div class="main-content">
+  <div class="portfolio">
+    <div class="portfolio-item tall">one</div>
+    <div class="portfolio-item wide">two</div>
+    <div class="portfolio-item square">three</div>
+    <div class="portfolio-item square">four</div>
+    <div class="portfolio-item wide">five</div>
+    <div class="portfolio-item large-wide">six</div>
+    <div class="portfolio-item narrow-tall">seven</div>
+  </div>
+</div>
+ -->
+
+ <div class="container">
+   <div class="row">
+     <div class="col-12">
+       <br /><h2>Illustrator of the Week: <b>Andres Hertsens</b></h2>
+     </div>
+     <div class="col-12">
+       Meet Lemonade illustrator Andres Hertsens! Andres has worked on several projects as both a children’s illustrator as well as an art director.
+       His latest project is the animated children’s TV series, <i>Crystal Tales</i>.
+     </div>
+   </div>
+ </div>
+
+    <div class="container-fluid">
+              <div class="row">
+                <div class="col">
+                  <img src="images/artistoftheweek/Hertsens-07.jpg" class="img-fluid rounded" alt="Andres Hertsens"/>
+                </div>
+                <div class="col">
+                  <img src="images/artistoftheweek/Hertsens-03.jpg" class="img-fluid rounded" alt="Andres Hertsens"/>
+                </div>
+                <div class="col">
+                  <img src="images/artistoftheweek/Hertsens-01.jpg" class="img-fluid rounded" alt="Andres Hertsens"/>
+                </div>
+                <div class="col">
+                  <img src="images/artistoftheweek/Hertsens-02.jpg" class="img-fluid rounded" alt="Andres Hertsens"/>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <img src="images/artistoftheweek/Hertsens-05.jpg" class="img-fluid rounded" alt="Andres Hertsens"/>
+                </div>
+                <div class="col">
+                  <img src="images/artistoftheweek/Hertsens-04.jpg" class="img-fluid rounded" alt="Andres Hertsens"/>
+                </div>
+                <div class="col">
+                  <img src="images/artistoftheweek/Hertsens-06.jpg" class="img-fluid rounded" alt="Andres Hertsens"/>
+                </div>
+              </div>
+                <div class="row">
+                  <div class="col">
+                  <a href="#"class="stretched-link">See more of Andres' work here</a>
+                  </div>
+                </div>
+              </div>
+            </div>
 <!-- artist of the week end -->
 
-<!-- footer start -->
-<!-- footer end -->
+<!-- footer start
+    <footer>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col">
+                London
+              </div>
+              <div class="col border">
+                Yorkshire
+              </div>
+              <div class="col border">
+                Sydney
+              </div>
+              <div class="col border">
+                New York
+              </div>
+              <div class="col border">
+                contact
+              </div>
+            </div>
+          </div>
 
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col">
+                <h6> Privacy Policy | Lemonade Illustration Agency © 2022 </h6>
+              </div>
+            </div>
+        </div>
+      </footer>
+ -->
+<footer>
+      <div class="card-group">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><br />London</h5>
+            <h6 class="card-text">Hill House, suite 231<br />210 Upper Richmond Road<br />SW15 6NP<br />London</h6>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><br />Yorkshire</h5>
+            <h6 class="card-text">North House<br />8 Hague Park Lane<br />South Kirkby<br />West Yorkshire<br />WF9 3SS</h6>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><br />Sydney</h5>
+            <h6 class="card-text">Sydney Office<br />377 Kent Street<br />Sydney,NSW 2000<br />Australia</h6>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><br />New York</h5>
+            <h6 class="card-text">347 Fifth Avenue<br />Suite 1402<br />New York,NY 10016<br />USA</h6>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h6 class="card-title"><br />contact</h6>
+            <h6 class="card-title">about</h6>
+            <h6 class="card-title">news</h6>
+            <h6 class="card-title">art licensing</h6>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <h6> Privacy Policy | Lemonade Illustration Agency © 2022</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <h6 class="card-text">about<br />news<br />art licensing<br /></h6> -->
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
