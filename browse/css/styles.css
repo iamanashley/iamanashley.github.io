@@ -9,36 +9,14 @@
   border-color: #C95110;
 }
 .sidebar {
-  color: #6C6C6C;
-  flex: 80%;
-  /* background-color: #C95110; */
+  color: #EE6123;
+  padding: 100px;
+  flex: 20%;
+  background:
 }
 
-.navbar-brand {
-  text-color: #F9F1C8;
-  font-family: 'Comfortaa'
-}
-.row {
-  padding-top: 10px;
-}
-
-
-div {
-  height: 100%;
-  width: 100%;
-  background-color: #F9F1C8:
-}
-nav {
-  background-color: #6C6C6C;
-}
-
-/* link styles */
 a {
   color: #202020;
-}
-
-a:active {
-  color: #C95110;
 }
 /* font and colors */
 
@@ -69,6 +47,7 @@ $white: #FFFFFF;
 $grey: #6C6C6C;
 $black: #202020;
 
+*/
 /* Semantic color names
 
 $accent: $cream;
@@ -86,11 +65,6 @@ $link-color: $orange;
    color: #2CA33E;
  }
 
-/* a.one {
-  color: #6C6C6C;
-  text-align: center;
-}
-*/
  h3 {
    color: #7C787D;
    text-align: left;
@@ -134,6 +108,7 @@ $link-color: $orange;
 p {
   color: black;
   font-size: 14px;
+
 }
 
 footer {
@@ -141,5 +116,4 @@ footer {
   padding: 0px;
   background-color: #C95110;
   color: #F9F1C8;
-  margin: auto;
 }
